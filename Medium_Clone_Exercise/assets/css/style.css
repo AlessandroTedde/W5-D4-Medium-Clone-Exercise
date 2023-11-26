@@ -100,7 +100,7 @@ nav {
 }
 
 .aw-div {
-  align-self: flex-end;
+  translate: 21rem;
 }
 
 .section2 {
@@ -220,7 +220,6 @@ nav {
 .n-news7 {
   display: flex;
   min-width: 45rem;
-  border: 2px solid lightsalmon;
 }
 
 .l-wrapper {
@@ -234,4 +233,53 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.below-n-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.break0 {
+  border: 1px solid #6b6b6b1c;
+  margin-block: 3rem;
+}
+
+aside {
+  display: flex;
+  min-width: 30rem;
+  gap: 20px;
+  justify-content: end;
+  align-self: start;
+  position: sticky;
+  top: 80px;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 21rem;
+  gap: 10px;
+}
+
+.table span {
+  border: 1px #6b6b6b3b solid;
+  padding: 5px;
+}
+
+.break {
+  border: 0.8px solid #6b6b6b3b;
+}
+
+.last {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 21rem;
+  gap: 10px;
+}
+
+.aside-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
