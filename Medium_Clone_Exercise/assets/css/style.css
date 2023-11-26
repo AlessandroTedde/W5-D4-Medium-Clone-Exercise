@@ -12,6 +12,7 @@ header {
   background-color: #ffc017;
   position: sticky;
   top: 0;
+  z-index: 9;
 }
 
 .nb-container {
@@ -58,6 +59,7 @@ nav {
 .section1 {
   background-color: #ffc017;
   border-bottom: #191919 1px solid;
+  overflow: hidden;
 }
 
 .section-div {
@@ -282,4 +284,46 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media screen and (max-width: 1886px) {
+  .aw-div {
+    translate: 0px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .aw-div {
+    display: none;
+  }
+
+  .section-div {
+    justify-content: start;
+    padding-left: 10px;
+  }
+
+  .trending {
+    justify-content: start;
+  }
+  /*.t-news1,
+  .t-news2,
+  .t-news3,
+  .t-news4,
+  .t-news5,
+  .t-news6 {
+    min-width: 35rem;
+  }*/
+  .t-news2,
+  .t-news4,
+  .t-news6 {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 823px) {
+  .t-news2,
+  .t-news4,
+  .t-news6 {
+    margin-left: 0;
+  }
 }
