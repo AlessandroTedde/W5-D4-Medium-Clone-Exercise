@@ -185,3 +185,53 @@ nav {
   color: #6b6b6bd0;
   font-weight: 700;
 }
+
+.section3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section3 p {
+  max-width: 35rem;
+}
+
+.section3 h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.n-news1 img:last-child,
+.n-news2 img:last-child,
+.n-news3 img:last-child,
+.n-news4 img:last-child,
+.n-news5 img:last-child,
+.n-news6 img:last-child,
+.n-news7 img:last-child {
+  max-width: 156px;
+}
+
+.n-news1,
+.n-news2,
+.n-news3,
+.n-news4,
+.n-news5,
+.n-news6,
+.n-news7 {
+  display: flex;
+  min-width: 45rem;
+  border: 2px solid lightsalmon;
+}
+
+.l-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.up,
+.down {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
